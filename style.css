@@ -29,10 +29,13 @@
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-image: url(Images/Group\ 13.png);
     background-repeat: no-repeat;
-    fill-opacity: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-    
+    border-radius: 16px;
+    background: linear-gradient(to bottom, #000000, #2c3e5000), url('Images/Group\ 13.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; 
     height: 500px;
     border-radius: 16px;
     
@@ -88,11 +91,11 @@ background: rgba(255, 255, 255, 0.30);
     border-radius: 8px;
     border: none;
     color: rgba(19, 19, 24, 0.50);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 #when{
@@ -135,6 +138,7 @@ cursor: pointer;
     margin: 20px 140px;
 }
 
+
 .tour-content h2{
     font-size: 2rem;
     color: #131318;
@@ -170,6 +174,110 @@ line-height: 26px; /* 162.5% */
     color: #FFF;
     border: none;
 }
+.des-title{
+    text-align: center;
+    margin: 20px 20px;
+}
+.des-title h2{
+    color: #131318;
+    text-align: center;
+font-family: Mulish;
+font-size: 2.2rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+
+.des-title p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.destination{
+    margin: 40px auto;
+    
+}
+
+
+.last-img{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.pic-srilnka{
+    background: url(Images/Rectangle\ 6.png);
+    width: 374px;
+height: 286px;
+display: flex;
+justify-content: center;
+
+}
+
+.pic-north{
+    background: url(Images/Rectangle\ 7.png);
+    width: 474px;
+height: 286px;
+display: flex;
+justify-content: center;
+}
+
+.pic-kashmir{
+    background: url(Images/Rectangle\ 9.png);
+    width: 274px;
+height: 286px;
+display: flex;
+justify-content: center;
+
+}
+
+.pic-one{
+    background: url(Images/Rectangle\ 11.png);
+    width: 473px;
+height: 300px;
+display: flex;
+justify-content: center;
+}
+
+.pic-two{
+    background: url(Images/Rectangle\ 10.png);
+    width: 673px;
+height: 300px;
+display: flex;
+justify-content: center;
+}
+
+.pic-maldivs{
+    background: url(Images/Rectangle\ 5.png);
+    width: 573px;
+height: 300px;
+display: flex;
+justify-content: center;
+} 
+.pic-indonesia{
+    background: url(Images/Rectangle\ 8.png);
+    width: 573px;
+height: 300px;
+display: flex;
+justify-content: center;
+}
+
+
+
+.last-img > h2{
+    color: #FFF;
+    align-items: center;
+    align-items: center;
+    text-align: ;
+}
+
+
 
 
 @media  screen and (max-width: 576px) {
@@ -231,5 +339,13 @@ line-height: 26px; /* 162.5% */
     .tour-img img{
         width: 100%;
         margin-top: 30px;
+    }
+
+    .des-title h2{
+        font-size: 1.25rem;
+    }
+    .image-area{
+        flex-direction: column;
+        margin: 5px 30px;
     }
 }
