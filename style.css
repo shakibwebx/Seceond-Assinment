@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Mulish;
 }
 
 /* navbar styles */
@@ -92,7 +93,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
-margin: 5px 250px;
+margin: 5px 140px;
 }
 
 .banner-input{
@@ -127,7 +128,7 @@ background: rgba(255, 255, 255, 0.30);
 }
 
 .btn-ban{
-    padding: 10px 30px 10px 30px;
+    padding: 10px 25px 10px 25px;
     border-radius: 8px;
     background: #FF5400;
     border: none;
@@ -404,7 +405,7 @@ margin-bottom: 15px;
     background-color: #FF5400;
     color: #FFF;
     text-align: center;
-    padding: 17px 162px 17px 162px;
+    padding: 17px 162px 17px 170px;
     border-radius: 8px;
     border: none;
     margin-top: 10px;
@@ -417,8 +418,8 @@ transform: rotate(-19.628deg);
 border-radius: 16px;
 background: #FF5400;
 color: #FFF;
-margin-top: -175px;
-margin-left: 250px;
+margin-top: -154px;
+margin-left: 404px;
 text-align: center;
 align-items: center;
 align-content: center;
@@ -557,7 +558,7 @@ margin: 20px 190px 40px 190px;
     }
 
     .pic-maldivs, .pic-indonesia, .pic-srilnka, .pic-north, .pic-kashmir, .pic-one, .pic-two{
-        width: 350px;
+        width: 273px;
         height: 176px;
         border-radius: 16px;
         margin: 2px 20px;
@@ -582,20 +583,25 @@ margin: 20px 190px 40px 190px;
 
     .form input {
         padding-left: 5%;
-        padding-right: 60%;
+        padding-right: 41%;
         
     }
 
     .new-btn {
         
-        padding-left: 45%;
-        padding-right: 45%;
+        padding-left: 38%;
+        padding-right: 39%;
         
     }
  .news-letter-img img{
     width: 383px;
 height: 300px;
 
+ }
+
+ .travel{
+    margin-top: -149px;
+    margin-left: 131px ;
  }
  footer {
     background: rgba(19, 19, 24, 0.05);
@@ -616,6 +622,7 @@ footer p{
 #hmbr{
     display: block;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 }
