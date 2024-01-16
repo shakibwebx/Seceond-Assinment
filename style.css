@@ -12,6 +12,26 @@
     
 }
 
+.logo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#skb{
+    color: #2a2a2b;
+}
+
+.logo h2{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 10px;
+}
+
 .menu-item li{
     display: inline;
     margin-right: 30px;
@@ -173,6 +193,7 @@ line-height: 26px; /* 162.5% */
     background: #FF5400;
     color: #FFF;
     border: none;
+    cursor: pointer;
 }
 .des-title{
     text-align: center;
@@ -234,6 +255,7 @@ justify-content: center;
 height: 286px;
 display: flex;
 justify-content: center;
+background-repeat: no-repeat;
 
 }
 
@@ -277,10 +299,188 @@ justify-content: center;
     text-align: ;
 }
 
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 10px 120px;
+    gap: 20px;
+}
+.card-one{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 184px;
+    padding: 32px 50px 32px 32px;
 
+}
 
+.card-two{
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 184px;
+    padding: 32px 50px 32px 32px;
 
-@media  screen and (max-width: 576px) {
+}
+
+.card-one h3, .card-two h3, .card-three h3{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 1.2rem;
+margin: 10px 0px;
+
+}
+
+.card-one p, .card-two p, .card-three p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+
+}
+
+.cards-two{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+.card-three{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(167, 145, 120, 0.05);
+    width: 573px;
+    height: 184px;
+    padding: 32px 50px 32px 32px;
+}
+
+.newsletter{
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+}
+
+.form{
+    border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 70px 50px 50px 50px ;
+}
+.form h2{
+    color: #131318;
+font-family: Mulish;
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.form p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+margin-bottom: 24px;
+
+}
+
+.form hr{
+    margin: 20px 0px;
+}
+
+.form input{
+    padding: 17px 230px 17px 15px;
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+margin-bottom: 15px;
+}
+
+.new-btn{
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    padding: 17px 162px 17px 162px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.travel{
+  padding: 35px;  
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+color: #FFF;
+margin-top: -175px;
+margin-left: 250px;
+text-align: center;
+align-items: center;
+align-content: center;
+}
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 110px;
+    margin-top: 100px;
+}
+
+.footer-logo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo span{
+  
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 10px;
+color: #FF5400;
+
+}
+
+footer p{
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin: 20px 190px 40px 190px;
+
+}
+
+.social-media{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.copyright{
+    padding-top: 60px;
+    display: block;
+}
+
+#hmbr{
+    display: none;
+}
+
+/* Responsive for mobile */
+
+@media  screen and (max-width: 600px) {
     .navbar{
         margin: 20px 30px;
 
@@ -348,4 +548,74 @@ justify-content: center;
         flex-direction: column;
         margin: 5px 30px;
     }
+
+    .last-img{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        
+    }
+
+    .pic-maldivs, .pic-indonesia, .pic-srilnka, .pic-north, .pic-kashmir, .pic-one, .pic-two{
+        width: 350px;
+        height: 176px;
+        border-radius: 16px;
+        margin: 2px 20px;
+        
+        
+        
+        
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card-one, .card-two, .card-three{
+        width: 295px
+    }
+
+    .newsletter{
+        flex-direction: column;
+
+    }
+
+    .form input {
+        padding-left: 5%;
+        padding-right: 60%;
+        
+    }
+
+    .new-btn {
+        
+        padding-left: 45%;
+        padding-right: 45%;
+        
+    }
+ .news-letter-img img{
+    width: 383px;
+height: 300px;
+
+ }
+ footer {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 10px;
+    margin-top: 104px;
+    
+}
+
+footer p{
+    margin: 20px 20px;
+}
+.copyright {
+    padding: 15px;
+    display: block;
+}
+
+#hmbr{
+    display: block;
+    margin-top: 15px;
+}
+
 }
